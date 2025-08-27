@@ -225,6 +225,8 @@ function showFeedback(result) {
         case 'passed':
             flashClass = 'flash-orange';
             delay = 1500;
+            // Show the answer
+            document.querySelector('.answer-text').classList.add('visible');
             break;
     }
     
